@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ribbon-service
+
+server:
+  port: 8081
+
+rest-server:
+  ribbon:
+    eureka:
+      enabled: true
+    serviceListRefreshInterval: 1000
+
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

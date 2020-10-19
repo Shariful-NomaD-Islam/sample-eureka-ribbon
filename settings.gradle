@@ -1,0 +1,6 @@
+include "eureka-server"
+include "ribbon-rest"
+include "rest-app"
+
+rootProject.name = 'eureka-ribbon'
+
