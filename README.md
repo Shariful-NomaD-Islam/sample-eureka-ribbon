@@ -1,6 +1,13 @@
 # sample-eureka-ribbon
 Sample application for load balancing using eureka and ribbon 
 
+### Requirement
+
+```bash
+gradle 6.6+
+```
+
+
 ### Build
 
 ```bash
