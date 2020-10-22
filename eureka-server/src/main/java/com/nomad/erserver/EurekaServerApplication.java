@@ -13,4 +13,3 @@ public class EurekaServerApplication {
 	}
 
 }
-//yJ65F%@6XAow    415339629
