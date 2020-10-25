@@ -18,7 +18,10 @@ gradle clean build
 ### Start tracing-service:
 
 ```bash
-java -jar zipkin-server/zipkin.jar & 
+cd zipkin-server
+curl -sSL https://zipkin.io/quickstart.sh | bash -s
+java -jar zipkin.jar &
+cd .. 
 ```
 
 ### Run micro-services:
