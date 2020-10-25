@@ -1,6 +1,13 @@
 # eureka-ribbon-zipkin
 Sample application for load balancing using eureka+ribbon and log tracing using zipkin 
 
+### Requirement
+
+```bash
+gradle 6.6+
+```
+
+
 ### Build
 
 ```bash
