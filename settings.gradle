@@ -1,6 +1,7 @@
 include "eureka-server"
 include "ribbon-rest"
 include "rest-app"
+include "rest-app2"
 
 rootProject.name = 'eureka-ribbon'
 
