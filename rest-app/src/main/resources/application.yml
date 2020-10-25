@@ -2,15 +2,6 @@ spring:
   application:
     name: rest-app
 
-#server:
-#  port: 8081
-
-rest-server:
-  ribbon:
-    eureka:
-      enabled: true
-    serviceListRefreshInterval: 5000
-
 eureka:
   client:
     service-url:
