@@ -1,4 +1,4 @@
-package com.nomad.rest.controller;
+package com.nomad.rest2.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,10 +17,10 @@ public class Controller {
     @Value("${server.port}")
     String port;
 
-    @GetMapping("/rest-get-info")
+    @GetMapping("/rest-get-string")
     public String information() {
-        logger.info("rest-app: get-info called");
-        return "Returned information" + "(" + port + ")" + ": " + instance;
+        logger.info("rest-app2: get-string called");
+        return "Returned string" + "(" + port + ")" + ": " + instance;
     }
 
 }
