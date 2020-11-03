@@ -1,6 +1,8 @@
 spring:
   application:
     name: rest-app
+  zipkin:
+    base-url: http://192.168.204.71:8080/
 
 eureka:
   client:
